@@ -27,14 +27,11 @@ body {
 
 .header > .nav > li {
   padding: 0px 10px;
-
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-
   text-transform: uppercase;
-
   color: #FDFDFD;
 }
 
@@ -42,7 +39,6 @@ a:link {
   text-decoration: none;
   color: #FDFDFD;
 }
-
 
 *{
     margin: 0;
@@ -58,7 +54,6 @@ body{
 nav{
     display: flex;
 }
-
 
 header {
     height: 117px;
@@ -112,7 +107,7 @@ section .desc-banner ul{
     font-size: 60px;
     color: #FF4081;
     list-style-type: none;
-    
+  
 }
 
 section .desc-banner p{
@@ -133,9 +128,6 @@ section .desc-banner a{
     height: 61px;
     width: 260px;
     text-transform: lowercase;
-    
-    
-    
 }
 
 
@@ -146,7 +138,6 @@ section .desc-banner p{
 section .desc-banner #descricao{
 width: 600px;    
 }
-
 
 #ilustra{
     display: flex;
@@ -190,7 +181,6 @@ width: 600px;
 
 .container{
     display: flex;
-
     gap: 90px;
     padding-left: 80px;
     margin-bottom: 0;
@@ -262,7 +252,6 @@ span h1{
     color: #009688;  
     padding-bottom: 60px;
     text-transform: uppercase;
-
 }
 
 .cont-index h2{
@@ -272,7 +261,6 @@ span h1{
     text-align: left;
     width: 319px;
     padding-top: 10px;
-
 }
 
 .cont-index p{
@@ -281,9 +269,6 @@ span h1{
     font-weight: 500;
     font-size: 18px;
     text-align: left;
-
-    
-    
 }
 
 .cont-index #btn-cursos{
@@ -338,7 +323,6 @@ footer .btn-footer ul a{
     text-align: center;
     padding: 5px;
     margin: 7px;
-
 }
 
 aside{
@@ -358,6 +342,7 @@ aside{
     border-radius: 7px;
 
 }
+
 .contato h1{
     font-size: 40px;
     color: #FF4081;
@@ -489,19 +474,19 @@ align-items: center;
     padding-top: 20px;
     padding-bottom: 18px;
     font-weight: 500;
-line-height: 34px;
-width: 455px;
-height: 34px;
+    line-height: 34px;
+    width: 455px;
+    height: 34px;
 }
 .blog-conteudo p{
     font-size: 17px;
     margin-bottom: 20%;
     font-weight: 300;
-font-size: 17px;
-line-height: 20px;
-width: 516px;
-height: 80px;
-text-align: justify;
+    font-size: 17px;
+    line-height: 20px;
+    width: 516px;
+    height: 80px;
+    
 }
 
 .curso-detalhe{
@@ -649,7 +634,6 @@ text-align: justify;
     justify-items: center;
     padding: 20px;
     margin-left: 40px;
-    
 }
 
 .post-conteudo #btn-cursos{
@@ -720,7 +704,6 @@ text-align: justify;
     }
     .cursos a{
         display: none;
-
     }
 
     #btn-reserva{
@@ -733,11 +716,54 @@ text-align: justify;
         width: 150px;
         height: 51px;
         display: grid;
+    }
+
+    .blog-conteudo{
+        grid-template-columns: 1fr;
+        
+    }
+    .menu-blog{    
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 5;
+    } 
+    .menu-blog img{
+        width: 300px;
+        height: 300px;
+    }
+    .blog-img-desc2{
+        padding: 0;
+        margin: 0;
+    }
+    .post {
+        display: inline;
+    }
+      
+    .post h1{
+        font-size: 30px;
+        text-align: left;
+    }
+    .post .data{
+        text-align: left;
+        padding-left: 20px;
+    }
+    .post img{
+        width: 400px;
+        padding-left: 20px;
+    }
+    .post-text{
+        
+        padding-left: 10px;
         
     }
 
-    .cursos-descricao{
-      
+    .post-text p{
+        font-size: 14px;
+        width: 500px;
+        height: auto;
+    }
+
+
 
 }
   
