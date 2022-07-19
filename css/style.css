@@ -763,7 +763,12 @@ align-items: center;
         height: auto;
     }
 
-
+    .curso-detalhe, .curso-video{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+    }
 
 }
   
