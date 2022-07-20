@@ -1,3 +1,5 @@
+@import url(./media.css);
+
 html,
 body {
   margin: 0px;
@@ -234,7 +236,6 @@ span h1{
 .cont-index{
     background: #E5E5E5;
     padding-bottom: 50px;
-
 }
 
 .post-index{
@@ -246,6 +247,7 @@ span h1{
 
 .cont-index h1{
     padding-top: 8%;
+    padding-left: 60px;
     font-weight: 700;
     font-size: 37px;
     line-height: 43px;
@@ -342,6 +344,7 @@ aside{
     border-radius: 7px;
 
 }
+
 
 .contato h1{
     font-size: 40px;
@@ -653,8 +656,6 @@ align-items: center;
     display: none;
 }
 
-   
-
 @media screen and (max-width: 660px) {
     .header {
       padding: 20px 36px 26px 50px;
@@ -678,10 +679,9 @@ align-items: center;
       flex-direction: column;
         
     }
-    
-  }
-  
-  @media screen and (max-width: 540px){
+}
+
+@media screen and (max-width: 540px){
     aside img{
         display: none;
     }
@@ -728,8 +728,8 @@ align-items: center;
         margin: 5;
     } 
     .menu-blog img{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
     .blog-img-desc2{
         padding: 0;
@@ -752,7 +752,6 @@ align-items: center;
         padding-left: 20px;
     }
     .post-text{
-        
         padding-left: 10px;
         
     }
@@ -770,6 +769,39 @@ align-items: center;
         padding: 10px;
     }
 
-}
-  
-        
+    .home{
+        margin: 0;
+        padding: 10px;
+    }
+    .home .img{
+      display: none;
+    }
+    .desc-banner{
+        margin: 10px;
+        padding: 10px;
+    }
+    #ilustra{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #ilustra button{
+        margin-bottom: 30px;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+    }
+    span h1{
+        margin: 10px;
+    }
+  }
+
+
+  @media screen and (max-width: 1024px){
+    
+
+
+  }
+
