@@ -497,12 +497,6 @@ align-items: center;
     margin: 0;
     margin: 10px 60px;
 }
-.detalhe-banner{
-    justify-content: ;
-    justify-items: ;
-    align-items: ;
-    align-content: ;
-}
 
 .curso-detalhe h1{
     font-weight: 700;
@@ -939,19 +933,7 @@ padding-bottom: 70px;
     .home img{
         display: none;
       }
-      .curso-detalhe, .curso-video{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin: 10px;
-        padding: 10px;
-    }
-    .curso-video p{
-        width: 300px;
-    }
-    .curso-detalhe img{
-        width: 300px;
-    }
+    
   }
 
 
@@ -960,22 +942,18 @@ padding-bottom: 70px;
     .home img{
         width: 300px;
       }
-      .curso-detalhe, .curso-video{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin: 10px;
-        padding: 10px;
-    }
-    .curso-video p{
-        width: 400px;
-    }
-    .curso-detalhe img{
-        width: 600px;
-    }
+    
   }
 
   @media screen and (max-width: 1200px){
+
+    .home img{
+        width: 300px;
+      }
+
+  }
+
+  @media screen and (max-width: 868px){
 
     .home img{
         width: 300px;
@@ -988,9 +966,57 @@ padding-bottom: 70px;
         padding: 10px;
     }
     .curso-video p{
-        width: 350px;
+        width: 300px;
     }
     .curso-detalhe img{
         width: 500px;
+    }
+    .curso-detalhe p{
+        width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 458px){
+
+    .home img{
+        width: 300px;
+      }
+      .curso-detalhe, .curso-video{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .curso-video p{
+        width: 300px;
+    }
+    .curso-detalhe img{
+        width: 500px;
+    }
+    .curso-detalhe p{
+        width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 770px){
+    .contato{
+        display: grid;
+        width: 400px;
+        height: auto;
+    }
+   
+    .contato .nameemail{
+        width: 360px;
+    }
+
+    .contato div #message{
+        width: 360px;
+    }
+    
+    footer{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
     }
   }
