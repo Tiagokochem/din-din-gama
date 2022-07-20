@@ -531,11 +531,11 @@ align-items: center;
 .curso-video{
     background-color: #F6F6F6;
     display: flex;
-    flex-wrap: wrap
-    padding: 60px;
+    flex-wrap: wrap;
+    padding-top: 60px;
     padding-left: 200px;
+    width: 1440px;
     
-
 }
 
 .curso-video h2{
@@ -556,6 +556,16 @@ align-items: center;
 
 .c-video {
     padding-right: 100px;
+}
+.desc-video{
+padding-bottom: 70px;
+}
+
+#hr-curso{
+    padding: 0;
+    margin: 0px;
+    background: #F7F7F7;
+    width: 14400px;
 }
 
 .post{
@@ -797,6 +807,9 @@ align-items: center;
     span h1{
         margin: 10px;
     }
+    .curso-detalhe img{
+        display: none;
+    }
   }
 
 
@@ -884,6 +897,7 @@ align-items: center;
     .curso-detalhe, .curso-video{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         margin: 10px;
         padding: 10px;
     }
@@ -915,6 +929,9 @@ align-items: center;
     span h1{
         margin: 10px;
     }
+    .curso-detalhe img{
+        display: none;
+    }
   }
 
   @media screen and (max-width: 1024px){
@@ -922,6 +939,19 @@ align-items: center;
     .home img{
         display: none;
       }
+      .curso-detalhe, .curso-video{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .curso-video p{
+        width: 300px;
+    }
+    .curso-detalhe img{
+        width: 300px;
+    }
   }
 
 
@@ -930,6 +960,19 @@ align-items: center;
     .home img{
         width: 300px;
       }
+      .curso-detalhe, .curso-video{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .curso-video p{
+        width: 400px;
+    }
+    .curso-detalhe img{
+        width: 600px;
+    }
   }
 
   @media screen and (max-width: 1200px){
@@ -937,4 +980,17 @@ align-items: center;
     .home img{
         width: 300px;
       }
+      .curso-detalhe, .curso-video{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .curso-video p{
+        width: 350px;
+    }
+    .curso-detalhe img{
+        width: 500px;
+    }
   }
