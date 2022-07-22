@@ -7,18 +7,18 @@
 <p align="center">
 
 
-  <img alt="GitHub contagem de linguagens" src="https://img.shields.io/github/languages/count/alicepaixao/ProfileComponent?color=%2304D361&style=plastic">
+  <img alt="GitHub contagem de linguagens" src="https://img.shields.io/github/languages/count/tiagokochem/ProfileComponent?color=%2304D361&style=plastic">
 
-  <img alt="Tamanho do governo" src="http://img.shields.io/github/languages/code-size/alicepaixao/ProfileComponent?style=plastic">
+  <img alt="Tamanho do governo" src="http://img.shields.io/github/languages/code-size/tiagokochem/ProfileComponent?style=plastic">
 
 
 
-  <img alt="licensa" src="https://img.shields.io/github/license/alicepaixao/ProfileComponent?style=plastic">
+  <img alt="licensa" src="https://img.shields.io/github/license/tiagokochem/ProfileComponent?style=plastic">
 
-  <img src="https://img.shields.io/github/forks/alicepaixao/ProfileComponent?style=plastic">
+  <img src="https://img.shields.io/github/forks/tiagokochem/ProfileComponent?style=plastic">
 
 <a href="https://github.com/alicepaixao/FoodFy/tree/master/commits/master">
-    <img alt="GitHub último commit" src="https://img.shields.io/github/last-commit/alicepaixao/ProfileComponent?style=plastic">
+    <img alt="GitHub último commit" src="https://img.shields.io/github/last-commit/tiagokochem/ProfileComponent?style=plastic">
   </a>
 
 <hr>
